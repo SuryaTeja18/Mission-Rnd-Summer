@@ -1,0 +1,20 @@
+﻿Build started 31-05-2019 23:45:38.
+     1>Project "C:\Users\18suryateja\documents\visual studio 2013\Projects\FileSystem\FileSystem\FileSystem.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /D _MBCS /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp Source1.cpp Source2.cpp
+         Source2.cpp
+         Source1.cpp
+     1>c:\users\18suryateja\documents\visual studio 2013\projects\filesystem\filesystem\source1.cpp(1): warning C4005: '_CRT_SECURE_NO_WARNINGS' : macro redefinition
+                 command-line arguments :  see previous definition of '_CRT_SECURE_NO_WARNINGS'
+         Source.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\18suryateja\documents\visual studio 2013\Projects\FileSystem\Debug\FileSystem.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\18suryateja\documents\visual studio 2013\Projects\FileSystem\Debug\FileSystem.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\18suryateja\documents\visual studio 2013\Projects\FileSystem\Debug\FileSystem.lib" /MACHINE:X86 Debug\Source.obj
+         Debug\Source1.obj
+         Debug\Source2.obj
+         FileSystem.vcxproj -> C:\Users\18suryateja\documents\visual studio 2013\Projects\FileSystem\Debug\FileSystem.exe
+     1>Done Building Project "C:\Users\18suryateja\documents\visual studio 2013\Projects\FileSystem\FileSystem\FileSystem.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.69
